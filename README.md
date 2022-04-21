@@ -14,7 +14,6 @@ Bash script to search unusable localizable strings in project
 `result_list.txt`
 
 REPORT
-
 Unused Localizable Keys:
 Report start: 2022-04-21 13:56:45
 Search path: /my/project/folder 
