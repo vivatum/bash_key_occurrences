@@ -2,9 +2,9 @@
 Bash script to search unusable localizable strings in project
 
 ## Parameters 
-<path to Localizable file> 
-<min occurrences for key - Int> 
-<path to search source folder>
+1. path to Localizable file
+2. min occurrences for key - Integer
+3. path to search source folder
   
 ## Run example 
-% bash key_occurrences_counter.sh /my/localizable/file/Localizable.strings 3 /my/project/folder
+`% bash key_occurrences_counter.sh /my/localizable/file/Localizable.strings 3 /my/project/folder`
