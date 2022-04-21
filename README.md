@@ -13,10 +13,10 @@ Bash script to search unusable localizable strings in project
 
 `result_list.txt`
 
-REPORT
-Unused Localizable Keys:
-Report start: 2022-04-21 13:56:45
-Search path: /my/project/folder 
+REPORT__
+Unused Localizable Keys:__
+Report start: 2022-04-21 13:56:45__
+Search path: /my/project/folder__
 
 
 "WrongCodeTitle" ---> 2
