@@ -2,7 +2,7 @@
 
 #README
 #script parameters: <path to Localizable file> <min occurrences for key - Int> <path to search folder>
-#run example: % bash key_occurrences_counter.sh /imka2/IMKA/pl.lproj/Localizable.strings 3 /Developer/iMKA_iOS/imka
+#run example: % bash key_occurrences_counter.sh /my/localizable/file/Localizable.strings 3 /my/project/folder
 
 
 results_file_name="result_list.txt"
