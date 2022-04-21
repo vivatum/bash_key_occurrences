@@ -11,7 +11,7 @@ min_count=$2
 search_folder_path=$3
 
 YELLOW='\033[1;33m'
-BLUE='\033[0;36m'
+CYAN='\033[0;36m'
 RED='\033[0;31m'
 NC='\033[0m'
 
@@ -23,11 +23,11 @@ function create_report_file {
   [ ! -e $results_file_name ] || rm $results_file_name
   touch $results_file_name
   echo "REPORT" >> $results_file_name
-  echo "Unused Localizable Keys:" >> $results_file_name
+  echo "Unused Localizable Keys" >> $results_file_name
   report_start_title="Report start: "
   current_date=$(date +%F)
   current_time=$(date +%T)
-  echo $report_start_title $current_date $current_time >> $results_file_name
+  echo -e '\n'$report_start_title $current_date $current_time >> $results_file_name
   echo -e "Search path:" $search_folder_path '\n\n' >> $results_file_name
 }
 
@@ -48,7 +48,7 @@ function analyze_localizable_file {
     while read line
     do
       ((current_line++))
-      echo -en "\r\033[K""  ${YELLOW}Progress: "${RED}"$current_line"${NC}"/"${BLUE}"$all_lines"${NC}
+      echo -en "\r\033[K""  ${YELLOW}Progress: "${RED}"$current_line"${NC}"/"${CYAN}"$all_lines"${NC}
       local no_space_line=${line// /}
       if [[ $no_space_line != "" ]] && [[ $line != *"MARK:"* ]];
       then
