@@ -11,7 +11,23 @@ Bash script to search unusable localizable strings in project
 
 ## Report example
 
-`
-slkdjfhka
-asdjkfhalkdfjh
-`
+`result_list.txt`
+
+REPORT
+Unused Localizable Keys:
+Report start: 2022-04-21 13:56:45
+Search path: /my/project/folder 
+
+
+"WrongCodeTitle" ---> 2
+"WrongCodeMessage" ---> 2
+"NetworkError" ---> 2
+"ServerCommunicationError" ---> 2
+"ServerCouldNotProcessTheContract" ---> 2
+"SignatureError" ---> 2
+"DeviceRegistrationError" ---> 2
+"OldAppVersion" ---> 2
+"OperatorIdInvalidError" ---> 2
+
+
+Report time: 2022-04-21 13:57:06
