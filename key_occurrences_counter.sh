@@ -62,7 +62,7 @@ function analyze_localizable_file {
 }
 
 function finish_report {
-  report_finish="Report time: "
+  report_finish="Report finish: "
   current_date=$(date +%F)
   current_time=$(date +%T)
   echo -e '\n\n'$report_finish $current_date $current_time >> $results_file_name
