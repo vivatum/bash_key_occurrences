@@ -19,15 +19,15 @@ Report start: 2022-04-21 13:56:45 <br />
 Search path: /my/project/folder <br />
 
 
-"WrongCodeTitle" ---> 2
-"WrongCodeMessage" ---> 2
-"NetworkError" ---> 2
-"ServerCommunicationError" ---> 2
-"ServerCouldNotProcessTheContract" ---> 2
-"SignatureError" ---> 2
-"DeviceRegistrationError" ---> 2
-"OldAppVersion" ---> 2
-"OperatorIdInvalidError" ---> 2
+"WrongCodeTitle" ---> 2 <br />
+"WrongCodeMessage" ---> 2 <br />
+"NetworkError" ---> 2 <br />
+"ServerCommunicationError" ---> 2 <br />
+"ServerCouldNotProcessTheContract" ---> 2 <br />
+"SignatureError" ---> 2 <br />
+"DeviceRegistrationError" ---> 2 <br />
+"OldAppVersion" ---> 2 <br />
+"OperatorIdInvalidError" ---> 2 <br />
 
-
+ 
 Report time: 2022-04-21 13:57:06
