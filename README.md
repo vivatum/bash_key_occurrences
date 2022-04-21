@@ -8,3 +8,10 @@ Bash script to search unusable localizable strings in project
   
 ## Run example 
 `% bash key_occurrences_counter.sh /my/localizable/file/Localizable.strings 3 /my/project/folder`
+
+## Report example
+
+`
+slkdjfhka
+asdjkfhalkdfjh
+`
