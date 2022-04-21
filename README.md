@@ -2,7 +2,7 @@
 Bash script to search unusable localizable strings in project
 
 ## Parameters 
-1. path to Localizable file
+1. path to Localizable.strings file
 2. min occurrences for key - Integer
 3. path to search source folder
   
