@@ -17,8 +17,6 @@ NC='\033[0m'
 
 declare -i current_line=0
 
-echo -e ${YELLOW}"  Start analysis..."${NC}
-
 function create_report_file {
   [ ! -e $results_file_name ] || rm $results_file_name
   touch $results_file_name
@@ -67,8 +65,11 @@ function finish_report {
   current_time=$(date +%T)
   echo -e '\n\n'$report_finish $current_date $current_time >> $results_file_name
   cat $results_file_name
+  exit
 }
 
+pgrep -f key_occurrences_counter.sh >/dev/null && exit
+echo -e ${YELLOW}"  Start analysis..."${NC}
 create_report_file
 analyze_localizable_file
 finish_report
